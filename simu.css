@@ -1,0 +1,84 @@
+.card {
+    margin-top: 5rem;
+    width: 50%;
+    background: transparent;
+  }
+  h1,h4{
+    letter-spacing: 4px;
+  }
+  h4{
+    margin-top: 3rem;
+  }
+  form {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #iput {
+    font-family: monospace;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #getWht,
+  #calc {
+    width: 40%;
+  }
+  input {
+    width: 15%;
+  }
+  #put {
+    width: 60%;
+    margin-top: 1cm;
+  }
+  button {
+    letter-spacing: 10px;
+    font-family: monospace;
+    margin-top: 3.5rem;
+  }
+  .btn {
+    background-color: #06062b;
+    color: #fff;
+  }
+  var {
+    font-size: 20px;
+  }
+  #getResult{
+    letter-spacing: 4px;
+    color: #06062b;
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      margin-top: 2rem;
+      width: 90%;
+    }
+    form {
+      margin-top: 1rem;
+      flex-direction: column;
+      width: 80%;
+    }
+    #getWht,
+    #calc {
+      margin: auto;
+      width: 70%;
+      margin-top: 1rem;
+    }
+    #put {
+      width: 100%;
+  }
+  button {
+    margin-top: 3rem;
+  }
+  h1,h4{
+    letter-spacing: 1px;
+  }
+  h4{
+    margin-top: 1.5rem;
+  }
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrix</title>
+    <link
+      rel="stylesheet"
+      href="../mutan2/bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="simu.css">
+  </head>
+  <body style="background: url(images.jpeg.jpg); color: #06062b">
+    <div
+      class="container-fluid"
+      style="display: flex; justify-content: center; align-self: center"
+    >
+      <div class="card">
+        <h1 class="h1 text-center font-monospace" style="color: #06062b">
+          MATRIX AND DETERMINANT
+        </h2>
+        <h4 class="text-center">Choose the appropriate method</h4>
+
+        <form>  
+          <select name="calc" id="calc" class="form-control" onchange="check()">
+            <option value="">Select any Option</option>
+            <option value="setOption">Determinant</option>
+            <option value="setOption1">Simultaneous Equation</option>
+          </select>
+          <select
+            name=""
+            id="getWht"
+            class="form-control"
+            onchange="display()"
+          ></select>
+        </form>
+        <div style="display: flex; justify-content: center">
+          <div id="put"></div>
+        </div>
+        <div class="text-center font-monospace mt-3 " id="getResult"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="simu.js"></script>

@@ -1,0 +1,2 @@
+This is a simple app that helps to determine the determinant of matrices of either a 2 × 2 matrix or a 3 × 3 matrix.
+Also, it can also solve an equation of two-variable equation and three-variable equation.
